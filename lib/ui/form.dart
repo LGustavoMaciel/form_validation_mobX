@@ -21,7 +21,7 @@ class _FormWidgetState extends State<FormWidget> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: Text('Form Widget'),
+        title: Center(child: Text('Form Widget')),
         backgroundColor: Colors.blue,
       ),
       body: Padding(
